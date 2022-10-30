@@ -32,7 +32,7 @@
             android:gravity="center_horizontal"
             android:textAlignment="center"
             android:text="Sign Up"
-            android:textSize="42dp"
+            android:textSize="42sp"
             android:textColor="#5b39c6"
             android:textStyle="bold"
             >
@@ -44,7 +44,7 @@
             android:gravity="center_horizontal"
             android:textAlignment="center"
             android:text="Fill up the form"
-            android:textSize="24dp"
+            android:textSize="24sp"
             android:textColor="#1c85e1"
             android:textStyle="bold"
             >
@@ -94,5 +94,48 @@
         </EditText>
 
     </com.google.android.material.textfield.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_design"
+        android:layout_below="@+id/password"
+        android:id="@+id/signup"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:textSize="16sp"
+            android:text="Sign Up"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            >
+        </TextView>
+        
+    </RelativeLayout>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Already have an account?"
+        android:id="@+id/gotologin"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/signup"
+        >
+
+    </TextView>
+
 
 </RelativeLayout>

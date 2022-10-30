@@ -33,7 +33,7 @@
             android:gravity="center_horizontal"
             android:textAlignment="center"
             android:text="Project Notepad"
-            android:textSize="42dp"
+            android:textSize="42sp"
             android:textColor="#5b39c6"
             android:textStyle="bold"
             >
@@ -45,9 +45,9 @@
             android:gravity="center_horizontal"
             android:textAlignment="center"
             android:text="Login to continue"
-            android:textSize="24dp"
+            android:textSize="24sp"
             android:textColor="#1c85e1"
-            android:textStyle="bold"
+            android:textStyle="normal"
             >
         </TextView>
 
